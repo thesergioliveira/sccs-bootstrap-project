@@ -1,7 +1,14 @@
-$item-count: 10;
+$items-count: 12;
 
 @for $i from 1 through $items-count {
-  .item:nth-child(#{$i}) {
-    animation: move random(70) + 10 + %;
+  .load:nth-child(#{$i}) {
+    animation: move (random(4) + s) ((random(60) / 10) + s) infinite;
+  }
+  .item {
+    background: linear-gradient(
+      to bottom right,
+      lighten(gray, random(40)),
+      rgba(darken(gray, random(10)), 1)
+    );
   }
 }
