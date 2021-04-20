@@ -1,0 +1,11 @@
+// @for $i from 1 through $items-count {
+//   .item:nt-child(#{$i}) {
+//     background: linear-gradient(
+//       to bottom right,
+//       lighten (orange, random(40)),
+//       rgba (darken())
+//     );
+
+//     height: random(60) + 10 vh;
+//   }
+// }

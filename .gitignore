@@ -9,7 +9,7 @@ bin-release/
 node_modules
 dist
 styles
-src
+
 
 # Executables
 *.swf
