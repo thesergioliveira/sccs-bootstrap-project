@@ -1,1 +1,1 @@
-# sccs-bootstrap-project
+# scss-animation-project
