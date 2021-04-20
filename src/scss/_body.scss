@@ -14,26 +14,24 @@ body {
   margin: 0;
 }
 .load {
-  width: inherit;
-  height: inherit;
-  @include flex(flex-start);
-  flex-direction: column;
-  @include border;
 }
 
 .item {
-  margin: 10px auto;
+  margin: 30px;
   height: 50px;
-  width: 200px;
+  width: 100px;
   background-color: rgba(233, 229, 229, 0.815);
   border-radius: 20px;
-  animation-name: move;
-  animation-duration: 4s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  z-index: 1;
 }
 
-.load:nth-child(1) {
-  animation: move;
+.one {
+  animation: move 5s 1s infinite;
+}
+
+.two {
+  animation: move 5s 0.5s infinite;
+}
+
+.three {
+  animation: move 5s 0s infinite;
 }
