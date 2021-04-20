@@ -23,13 +23,13 @@ body {
 }
 
 .one {
-  animation: move 5s 1s infinite;
+  animation: move 5s 1s infinite alternate;
 }
 
 .two {
-  animation: move 5s 0.5s infinite;
+  animation: move 5s 0.5s infinite alternate;
 }
 
 .three {
-  animation: move 5s 0s infinite;
+  animation: move 5s 0s infinite alternate;
 }

@@ -1,14 +1,32 @@
-$items-count: 30;
+$items-count: 48;
 
 @for $i from 1 through $items-count {
-  .load:nth-child(#{$i}) {
-    animation: move (random(4) + s) ((random(60) / 10) + s) infinite;
-  }
-  .item {
-    background: linear-gradient(
-      to bottom right,
-      lighten(gray, random(40)),
-      rgba(darken(gray, random(10)), 1)
-    );
+  @if (($i % 2) !=0) {
+    .item:nth-child(#{$i}) {
+      animation: move 3s 1s infinite alternate;
+      background: linear-gradient(
+        to bottom right,
+        lighten(gray, random(40)),
+        rgba(darken(gray, random(10)), 1)
+      );
+    }
+  } @else if (($i % 3)) {
+    .item:nth-child(#{$i}) {
+      animation: move 3s 0.5s infinite alternate;
+      background: linear-gradient(
+        to bottom right,
+        lighten(gray, random(40)),
+        rgba(darken(gray, random(10)), 1)
+      );
+    }
+  } @else {
+    .item:nth-child(#{$i}) {
+      animation: move 3s 0s infinite alternate;
+      background: linear-gradient(
+        to bottom right,
+        lighten(gray, random(40)),
+        rgba(darken(gray, random(10)), 1)
+      );
+    }
   }
 }
