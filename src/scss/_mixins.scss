@@ -5,3 +5,9 @@
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
