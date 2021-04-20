@@ -6,7 +6,7 @@
   animation-timing-function: linear;
 }
 
-@mixin center {
+@mixin center-element {
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,3 +1,5 @@
+@import "./mixins";
+
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +7,11 @@
 }
 
 body {
-  background-color: rgba(233, 229, 229, 0.815);
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(168, 164, 164, 0.815);
   margin: 0;
-  @include center;
+  @include center-element;
 }
 
 .item-container {
