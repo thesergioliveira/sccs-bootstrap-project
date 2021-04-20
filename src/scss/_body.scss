@@ -12,13 +12,15 @@ body {
   height: 70vh;
   background-color: rgba(168, 164, 164, 0.815);
   margin: 0;
-  @include center-element;
 }
 .load {
   width: inherit;
   height: inherit;
+  @include flex(flex-start);
+  flex-direction: column;
   @include border;
 }
+
 .item {
   margin: 10px auto;
   height: 50px;
@@ -27,7 +29,11 @@ body {
   border-radius: 20px;
   animation-name: move;
   animation-duration: 4s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
   animation-timing-function: linear;
   z-index: 1;
+}
+
+.load:nth-child(1) {
+  animation: move;
 }
