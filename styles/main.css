@@ -30,18 +30,6 @@ body {
   border-radius: 20px;
 }
 
-.one {
-  animation: move 5s 1s infinite alternate;
-}
-
-.two {
-  animation: move 5s 0.5s infinite alternate;
-}
-
-.three {
-  animation: move 5s 0s infinite alternate;
-}
-
 @keyframes move {
   0% {
     width: 20%;
@@ -55,242 +43,242 @@ body {
 }
 .item:nth-child(1) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #8a8a8a, #676767);
+  background: linear-gradient(to bottom right, #a4a4a4, #737373);
 }
 
 .item:nth-child(2) {
   animation: move 3s 0.5s infinite alternate;
-  background: linear-gradient(to bottom right, #8a8a8a, #737373);
+  background: linear-gradient(to bottom right, #b3b3b3, #717171);
 }
 
 .item:nth-child(3) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #8d8d8d, #717171);
+  background: linear-gradient(to bottom right, #cdcdcd, #676767);
 }
 
 .item:nth-child(4) {
   animation: move 3s 0.5s infinite alternate;
-  background: linear-gradient(to bottom right, darkgray, #7b7b7b);
+  background: linear-gradient(to bottom right, gainsboro, #767676);
 }
 
 .item:nth-child(5) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #a1a1a1, #737373);
+  background: linear-gradient(to bottom right, #e1e1e1, #717171);
 }
 
 .item:nth-child(6) {
   animation: move 3s 0s infinite alternate;
-  background: linear-gradient(to bottom right, darkgray, #6e6e6e);
+  background: linear-gradient(to bottom right, #8a8a8a, #787878);
 }
 
 .item:nth-child(7) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #8f8f8f, #7b7b7b);
+  background: linear-gradient(to bottom right, #8a8a8a, #767676);
 }
 
 .item:nth-child(8) {
   animation: move 3s 0.5s infinite alternate;
-  background: linear-gradient(to bottom right, #bdbdbd, #7b7b7b);
+  background: linear-gradient(to bottom right, gainsboro, #787878);
 }
 
 .item:nth-child(9) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #888888, #717171);
+  background: linear-gradient(to bottom right, #e3e3e3, #6c6c6c);
 }
 
 .item:nth-child(10) {
   animation: move 3s 0.5s infinite alternate;
-  background: linear-gradient(to bottom right, #929292, #7d7d7d);
+  background: linear-gradient(to bottom right, #d2d2d2, #6e6e6e);
 }
 
 .item:nth-child(11) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #d9d9d9, #787878);
+  background: linear-gradient(to bottom right, #d9d9d9, #676767);
 }
 
 .item:nth-child(12) {
   animation: move 3s 0s infinite alternate;
-  background: linear-gradient(to bottom right, #949494, #6e6e6e);
+  background: linear-gradient(to bottom right, gainsboro, #737373);
 }
 
 .item:nth-child(13) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #cacaca, #7b7b7b);
+  background: linear-gradient(to bottom right, #c5c5c5, dimgray);
 }
 
 .item:nth-child(14) {
   animation: move 3s 0.5s infinite alternate;
-  background: linear-gradient(to bottom right, #9a9a9a, #737373);
+  background: linear-gradient(to bottom right, #d7d7d7, #767676);
 }
 
 .item:nth-child(15) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #b3b3b3, #7d7d7d);
+  background: linear-gradient(to bottom right, #929292, #676767);
 }
 
 .item:nth-child(16) {
   animation: move 3s 0.5s infinite alternate;
-  background: linear-gradient(to bottom right, #858585, #7b7b7b);
+  background: linear-gradient(to bottom right, #9f9f9f, dimgray);
 }
 
 .item:nth-child(17) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #d2d2d2, dimgray);
+  background: linear-gradient(to bottom right, #979797, dimgray);
 }
 
 .item:nth-child(18) {
   animation: move 3s 0s infinite alternate;
-  background: linear-gradient(to bottom right, #b6b6b6, #787878);
+  background: linear-gradient(to bottom right, #b0b0b0, #7b7b7b);
 }
 
 .item:nth-child(19) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, gainsboro, #6e6e6e);
+  background: linear-gradient(to bottom right, #9f9f9f, #767676);
 }
 
 .item:nth-child(20) {
   animation: move 3s 0.5s infinite alternate;
-  background: linear-gradient(to bottom right, #cfcfcf, #7d7d7d);
+  background: linear-gradient(to bottom right, #979797, #767676);
 }
 
 .item:nth-child(21) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #bbbbbb, #787878);
+  background: linear-gradient(to bottom right, #e6e6e6, #7b7b7b);
 }
 
 .item:nth-child(22) {
   animation: move 3s 0.5s infinite alternate;
-  background: linear-gradient(to bottom right, #cacaca, #787878);
+  background: linear-gradient(to bottom right, #bbbbbb, #6c6c6c);
 }
 
 .item:nth-child(23) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #979797, #6c6c6c);
+  background: linear-gradient(to bottom right, #c2c2c2, #6e6e6e);
 }
 
 .item:nth-child(24) {
   animation: move 3s 0s infinite alternate;
-  background: linear-gradient(to bottom right, #b6b6b6, #7b7b7b);
+  background: linear-gradient(to bottom right, #9a9a9a, #717171);
 }
 
 .item:nth-child(25) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #8a8a8a, #7d7d7d);
+  background: linear-gradient(to bottom right, #e3e3e3, #7b7b7b);
 }
 
 .item:nth-child(26) {
   animation: move 3s 0.5s infinite alternate;
-  background: linear-gradient(to bottom right, #b3b3b3, #6c6c6c);
+  background: linear-gradient(to bottom right, #d9d9d9, #737373);
 }
 
 .item:nth-child(27) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #ababab, #676767);
+  background: linear-gradient(to bottom right, #e1e1e1, #6c6c6c);
 }
 
 .item:nth-child(28) {
   animation: move 3s 0.5s infinite alternate;
-  background: linear-gradient(to bottom right, #bdbdbd, #6e6e6e);
+  background: linear-gradient(to bottom right, #cdcdcd, #7d7d7d);
 }
 
 .item:nth-child(29) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #a6a6a6, dimgray);
+  background: linear-gradient(to bottom right, #d9d9d9, #737373);
 }
 
 .item:nth-child(30) {
   animation: move 3s 0s infinite alternate;
-  background: linear-gradient(to bottom right, #a6a6a6, dimgray);
+  background: linear-gradient(to bottom right, darkgray, #7b7b7b);
 }
 
 .item:nth-child(31) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, silver, #676767);
+  background: linear-gradient(to bottom right, #bbbbbb, dimgray);
 }
 
 .item:nth-child(32) {
   animation: move 3s 0.5s infinite alternate;
-  background: linear-gradient(to bottom right, #dedede, #717171);
+  background: linear-gradient(to bottom right, #d2d2d2, #6e6e6e);
 }
 
 .item:nth-child(33) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #cfcfcf, #7d7d7d);
+  background: linear-gradient(to bottom right, #aeaeae, dimgray);
 }
 
 .item:nth-child(34) {
   animation: move 3s 0.5s infinite alternate;
-  background: linear-gradient(to bottom right, #c7c7c7, #787878);
+  background: linear-gradient(to bottom right, #b3b3b3, #717171);
 }
 
 .item:nth-child(35) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #858585, #7d7d7d);
+  background: linear-gradient(to bottom right, gainsboro, #787878);
 }
 
 .item:nth-child(36) {
   animation: move 3s 0s infinite alternate;
-  background: linear-gradient(to bottom right, darkgray, #787878);
+  background: linear-gradient(to bottom right, #979797, #7b7b7b);
 }
 
 .item:nth-child(37) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #e3e3e3, #6c6c6c);
+  background: linear-gradient(to bottom right, silver, #676767);
 }
 
 .item:nth-child(38) {
   animation: move 3s 0.5s infinite alternate;
-  background: linear-gradient(to bottom right, darkgray, #6e6e6e);
+  background: linear-gradient(to bottom right, #b3b3b3, #7d7d7d);
 }
 
 .item:nth-child(39) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #9a9a9a, #767676);
+  background: linear-gradient(to bottom right, #8f8f8f, #787878);
 }
 
 .item:nth-child(40) {
   animation: move 3s 0.5s infinite alternate;
-  background: linear-gradient(to bottom right, #d4d4d4, #767676);
+  background: linear-gradient(to bottom right, #b3b3b3, #767676);
 }
 
 .item:nth-child(41) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #b3b3b3, #787878);
+  background: linear-gradient(to bottom right, #e3e3e3, #7b7b7b);
 }
 
 .item:nth-child(42) {
   animation: move 3s 0s infinite alternate;
-  background: linear-gradient(to bottom right, #e1e1e1, #7b7b7b);
+  background: linear-gradient(to bottom right, #a4a4a4, #7d7d7d);
 }
 
 .item:nth-child(43) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #a4a4a4, #717171);
+  background: linear-gradient(to bottom right, #858585, #767676);
 }
 
 .item:nth-child(44) {
   animation: move 3s 0.5s infinite alternate;
-  background: linear-gradient(to bottom right, #ababab, #7b7b7b);
+  background: linear-gradient(to bottom right, #a4a4a4, #7b7b7b);
 }
 
 .item:nth-child(45) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #b3b3b3, #767676);
+  background: linear-gradient(to bottom right, #9c9c9c, #787878);
 }
 
 .item:nth-child(46) {
   animation: move 3s 0.5s infinite alternate;
-  background: linear-gradient(to bottom right, #d4d4d4, #787878);
+  background: linear-gradient(to bottom right, #aeaeae, #717171);
 }
 
 .item:nth-child(47) {
   animation: move 3s 1s infinite alternate;
-  background: linear-gradient(to bottom right, #bbbbbb, #6c6c6c);
+  background: linear-gradient(to bottom right, #cdcdcd, #737373);
 }
 
 .item:nth-child(48) {
   animation: move 3s 0s infinite alternate;
-  background: linear-gradient(to bottom right, #858585, #6c6c6c);
+  background: linear-gradient(to bottom right, #bbbbbb, #767676);
 }
 
 /*# sourceMappingURL=main.css.map */
